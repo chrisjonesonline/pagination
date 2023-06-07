@@ -15,7 +15,7 @@ INSERT INTO `users`(`id`, `fullName`) VALUES ('','Willie Velazquez');
 INSERT INTO `users`(`id`, `fullName`) VALUES ('','Aran Reilly');
 INSERT INTO `users`(`id`, `fullName`) VALUES ('','Fannie Daniels');
 INSERT INTO `users`(`id`, `fullName`) VALUES ('','Scott Burch');
-INSERT INTO `users`(`id`, `fullName`) VALUES ('','Scott Burch');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Ryan Long');
 INSERT INTO `users`(`id`, `fullName`) VALUES ('','Paula Calhoun');
 INSERT INTO `users`(`id`, `fullName`) VALUES ('','Clementine Case');
 INSERT INTO `users`(`id`, `fullName`) VALUES ('','Claire Bruce');
