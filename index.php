@@ -13,10 +13,10 @@
 include_once ('server/config.php');
 
     //define total number of results you want per page  
-    $results_per_page = 10;  
+    $results_per_page = 4;  
 
     //find the total number of results stored in the database  
-    $query = "select *from alphabet";  
+    $query = "select *from users";  
     $result = mysqli_query($conn, $query);  
     $number_of_result = mysqli_num_rows($result);  
 
@@ -34,13 +34,13 @@ include_once ('server/config.php');
     $page_first_result = ($page-1) * $results_per_page;  
 
     //retrieve the selected results from database   
-    $query = "SELECT *FROM alphabet LIMIT " . $page_first_result . ',' . $results_per_page;  
+    $query = "SELECT *FROM users LIMIT " . $page_first_result . ',' . $results_per_page;  
     $result = mysqli_query($conn, $query);  
 
     //display the retrieved result on the webpage  
     while ($row = mysqli_fetch_array($result)) {  
 		
-		echo $row['id'] . ' ' . $row['alphabet'] . '</br>';
+		echo $row['id'] . ' ' . $row['fullName'] . '</br>';
 		
     }
 	
@@ -48,7 +48,7 @@ include_once ('server/config.php');
 
     //display the link of the pages in URL  
     for($page = 1; $page<= $number_of_page; $page++) {  
-        echo '<a href = "index.php?page=' . $page . '">' . $page . ' </a>';  
+        echo '| <a href = "index.php?page=' . $page . '">' . 'Page ' . $page . ' </a> | ';  
     }
 
 ?>  
