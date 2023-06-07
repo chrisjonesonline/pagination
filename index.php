@@ -48,8 +48,8 @@ include_once ('server/config.php');
 
     //display the link of the pages in URL  
     for($page = 1; $page<= $number_of_page; $page++) {  
-        echo '| <a href = "index.php?page=' . $page . '">' . 'Page ' . $page . ' </a> | ';  
-    }
+        echo '| <a href = "index.php?page=' . $page . '">' . 'Page ' . $page . ' </a> ';
+    } echo ' |';
 
 ?>  
 </body>
