@@ -1,6 +1,6 @@
 <?php
 
-/**
+/*
  * mysql_connect is deprecated
  * using mysqli_connect instead
  */
