@@ -2,36 +2,22 @@ create database YOUR_DB_NAME;
 
 use YOUR_DB_NAME;
 
-CREATE TABLE `alphabet` (
+CREATE TABLE `users` (
   `id` int(11) NOT NULL auto_increment,
-  `alphabet` varchar(40) NOT NULL,
+  `fullName` varchar(40) NOT NULL,
   
   PRIMARY KEY  (`id`)
 );
 
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[A]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[B]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[C]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[D]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[E]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[F]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[G]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[H]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[I]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[J]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[K]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[L]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[M]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[N]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[O]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[P]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[Q]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[R]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[S]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[T]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[U]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[V]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[W]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[X]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[Y]');
-INSERT INTO `alphabet`(`id`, `alphabet`) VALUES ('','[Z]');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Chris Jones');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Blake Kent');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Willie Velazquez');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Aran Reilly');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Fannie Daniels');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Scott Burch');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Scott Burch');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Paula Calhoun');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Clementine Case');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Claire Bruce');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Sophia Melton');
+INSERT INTO `users`(`id`, `fullName`) VALUES ('','Zaynah Mathis');
