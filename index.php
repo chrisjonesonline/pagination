@@ -1,6 +1,6 @@
 <html>
 <head>
-<title> Pagination </title>
+<title>Pagination</title>
 <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
