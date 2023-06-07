@@ -40,7 +40,7 @@ include_once ('server/config.php');
     //display the retrieved result on the webpage  
     while ($row = mysqli_fetch_array($result)) {  
 		
-		echo $row['id'] . ' ' . $row['fullName'] . '</br>';
+		echo $row['id'] . ' ' . $row['fullName'] . '<br />';
 		
     }
 	
